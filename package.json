@@ -1,0 +1,14 @@
+{
+  "name": "homepage-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "陆鸿儒 / Hongru Lu personal homepage",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test",
+    "preview": "node scripts/serve.mjs --dist"
+  },
+  "engines": { "node": ">=22" }
+}
